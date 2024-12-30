@@ -16,7 +16,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "NotificationPackage",
-            url: "https://github.com/Hammad964/NotificationSdkBinary.git",
+            url: "https://github.com/Hammad964/NotificationSdkBinary/releases/download/v1.0.0/NotificationSdk.xcframework.zip",
             checksum: "0aa518578f8da40b877da45045613877b4f10f374e212ed2d15f5ec348753d7a"
             )
     ]
