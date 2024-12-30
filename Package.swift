@@ -14,8 +14,10 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "NotificationPackage"),
-
+        .binaryTarget(
+            name: "NotificationPackage",
+            url: "https://github.com/Hammad964/NotificationSdkBinary.git",
+            checksum: "0aa518578f8da40b877da45045613877b4f10f374e212ed2d15f5ec348753d7a"
+            )
     ]
 )
